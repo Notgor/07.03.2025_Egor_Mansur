@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _07._03._2025
 {
-    class Class1
+    internal class Class1
     {
-        static void Main()
+        public static void Execute()
         {
             int intValue = 42;
             double doubleValue = 3.14159;

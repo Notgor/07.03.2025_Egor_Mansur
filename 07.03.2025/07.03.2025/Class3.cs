@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _07._03._2025
 {
-    class Class3
+    internal class Class3
     {
+        public static void Execute()
+        {
+            object obj = null;
+
+            string result = Convert.ToString(obj) ?? "значение отсутствует";
+
+            Console.WriteLine(result);
+        }
     }
 }
